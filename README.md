@@ -64,65 +64,65 @@ The table below catalogs leading commercial cloud POS platforms, sorted in desce
 
 ## ⚡ Open-Source POS Systems
 
-Production-grade, community-supported, and self-hosted open-source Point of Sale systems sorted in descending order by **GitHub Star Count** ⭐:
+Production-grade, community-supported, and self-hosted open-source Point of Sale systems sorted in descending order by **GitHub Stars_Count** ⭐:
 
-1. **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+1. **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
    📦 *Python / JavaScript / PostgreSQL (LGPL-3.0)*  
    Comprehensive enterprise business suite with a fast, touch-friendly web-based POS app supporting offline browser caching, thermal receipt printing, barcode hardware scanners, restaurant table maps, and automated accounting ledger reconciliation.
 
-2. **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
+2. **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers)  
    📦 *Python / JavaScript / MariaDB / Frappe Framework (GPL-3.0)*  
    Modern open-source ERP with a built-in Point of Sale module featuring real-time stock balance updates, customer loyalty points, serial and batch number selection, offline cashier caching, and automated sales invoice generation.
 
-3. **[BTCPay Server](https://github.com/btcpayserver/btcpayserver)** [![GitHub stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)  
+3. **[BTCPay Server](https://github.com/btcpayserver/btcpayserver)** [![GitHub_Stars](https://img.shields.io/github/stars/btcpayserver/btcpayserver?style=social&color=white)](https://github.com/btcpayserver/btcpayserver/stargazers)  
    📦 *C# / .NET / ASP.NET Core (MIT)*  
    Self-hosted, open-source cryptocurrency payment processor featuring a built-in Point of Sale terminal app with custom keypad amounts, tipping, NFC/QR contactless checkout, and zero middleman fees.
 
-4. **[Open Source Point of Sale (OSPOS)](https://github.com/opensourcepos/opensourcepos)** [![GitHub stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)  
+4. **[Open Source Point of Sale (OSPOS)](https://github.com/opensourcepos/opensourcepos)** [![GitHub_Stars](https://img.shields.io/github/stars/opensourcepos/opensourcepos?style=social&color=white)](https://github.com/opensourcepos/opensourcepos/stargazers)  
    📦 *PHP / CodeIgniter / MySQL / Bootstrap (MIT)*  
    Lightweight, web-based open-source point of sale application designed for small retailers with inventory management, sales receipts, customer profiles, barcode generation, and granular staff permissions.
 
-5. **[NexoPOS](https://github.com/Blair2004/NexoPOS)** [![GitHub stars](https://img.shields.io/github/stars/Blair2004/NexoPOS)](https://github.com/Blair2004/NexoPOS/stargazers)  
+5. **[NexoPOS](https://github.com/Blair2004/NexoPOS)** [![GitHub_Stars](https://img.shields.io/github/stars/Blair2004/NexoPOS)](https://github.com/Blair2004/NexoPOS/stargazers)  
    📦 *PHP / Laravel / Vue.js / Tailwind CSS (GPL-3.0)*  
    Modular web and cloud POS platform built with Laravel and Vue.js, offering cash register management, order processing, multi-currency operations, stock tracking, and third-party extensions.
 
-6. **[Store-POS](https://github.com/tngoman/Store-POS)** [![GitHub stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)  
+6. **[Store-POS](https://github.com/tngoman/Store-POS)** [![GitHub_Stars](https://img.shields.io/github/stars/tngoman/Store-POS?style=social&color=white)](https://github.com/tngoman/Store-POS/stargazers)  
    📦 *JavaScript / Electron / React / SQLite (MIT)*  
    Modern Electron-powered desktop Point of Sale application featuring a fast React cash register, Express API, local-area network (LAN) multi-terminal sync, product photo catalogs, and receipt printing.
 
-7. **[Lakasir](https://github.com/lakasir/lakasir)** [![GitHub stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers)  
+7. **[Lakasir](https://github.com/lakasir/lakasir)** [![GitHub_Stars](https://img.shields.io/github/stars/lakasir/lakasir?style=social&color=white)](https://github.com/lakasir/lakasir/stargazers)  
    📦 *TypeScript / Vue.js / Nuxt / Tailwind CSS (GPL-3.0)*  
    Minimalist, lightweight open-source POS application designed for micro and small retail merchants seeking clean checkout interfaces without heavy back-office baggage.
 
-8. **[TailPOS](https://github.com/bailabs/tailpos)** [![GitHub stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers)  
+8. **[TailPOS](https://github.com/bailabs/tailpos)** [![GitHub_Stars](https://img.shields.io/github/stars/bailabs/tailpos?style=social&color=white)](https://github.com/bailabs/tailpos/stargazers)  
    📦 *Python / Kivy / SQLite (GPL-3.0)*  
    Offline-first mobile and desktop POS client designed to sync seamlessly with ERPNext, enabling uninterrupted retail checkout during internet outages and background data sync upon reconnect.
 
-9. **[POS Awesome](https://github.com/ucraft-com/POS-Awesome)** [![GitHub stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)  
+9. **[POS Awesome](https://github.com/ucraft-com/POS-Awesome)** [![GitHub_Stars](https://img.shields.io/github/stars/ucraft-com/POS-Awesome?style=social&color=white)](https://github.com/ucraft-com/POS-Awesome/stargazers)  
    📦 *JavaScript / Vue.js / Vuetify (GPL-3.0)*  
    Modern and responsive single-page web Point of Sale application designed as an enhanced frontend for ERPNext, complete with offline cashier mode, fast keyboard shortcuts, and barcode reader compatibility.
 
-10. **[Laravel POS](https://github.com/angkosal/laravel-pos)** [![GitHub stars](https://img.shields.io/github/stars/angkosal/laravel-pos?style=social&color=white)](https://github.com/angkosal/laravel-pos/stargazers)  
+10. **[Laravel POS](https://github.com/angkosal/laravel-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/angkosal/laravel-pos?style=social&color=white)](https://github.com/angkosal/laravel-pos/stargazers)  
     📦 *PHP / Laravel / Blade / MySQL (MIT)*  
     Clean, responsive web-based POS and inventory system created with Laravel, suitable for local shops, featuring order tickets, invoice printing, customer logs, and sales summaries.
 
-11. **[React Point of Sale](https://github.com/shanmugharajk/react-point-of-sale)** [![GitHub stars](https://img.shields.io/github/stars/shanmugharajk/react-point-of-sale?style=social&color=white)](https://github.com/shanmugharajk/react-point-of-sale/stargazers)  
+11. **[React Point of Sale](https://github.com/shanmugharajk/react-point-of-sale)** [![GitHub_Stars](https://img.shields.io/github/stars/shanmugharajk/react-point-of-sale?style=social&color=white)](https://github.com/shanmugharajk/react-point-of-sale/stargazers)  
     📦 *JavaScript / React / Node.js / Express (MIT)*  
     Developer-friendly full-stack cloud POS template showcasing a React client interface, real-time cart manipulation, order ticketing, and Node.js REST API persistence.
 
-12. **[PHP Point of Sale](https://github.com/deenseth/PHP-Point-Of-Sale)** [![GitHub stars](https://img.shields.io/github/stars/deenseth/PHP-Point-Of-Sale?style=social&color=white)](https://github.com/deenseth/PHP-Point-Of-Sale/stargazers)  
+12. **[PHP Point of Sale](https://github.com/deenseth/PHP-Point-Of-Sale)** [![GitHub_Stars](https://img.shields.io/github/stars/deenseth/PHP-Point-Of-Sale?style=social&color=white)](https://github.com/deenseth/PHP-Point-Of-Sale/stargazers)  
     📦 *PHP / MySQL / HTML5 (GPL-2.0)*  
     Straightforward, community-maintained web cashier system for tracking retail transactions, cash registers, account customer billing, and daily sales summaries.
 
-13. **[URY ERP & POS](https://github.com/ury-erp/ury)** [![GitHub stars](https://img.shields.io/github/stars/ury-erp/ury?style=social&color=white)](https://github.com/ury-erp/ury/stargazers)  
+13. **[URY ERP & POS](https://github.com/ury-erp/ury)** [![GitHub_Stars](https://img.shields.io/github/stars/ury-erp/ury?style=social&color=white)](https://github.com/ury-erp/ury/stargazers)  
     📦 *Python / JavaScript / Frappe (GPL-3.0)*  
     Free and open-source restaurant management system and food-service POS engine powered by Frappe/ERPNext, supporting kitchen order tickets (KOT), tableside ordering, and recipe costings.
 
-14. **[Aplikasi Point of Sales (React/Inertia)](https://github.com/aryadwiputra/point-of-sales)** [![GitHub stars](https://img.shields.io/github/stars/aryadwiputra/point-of-sales?style=social&color=white)](https://github.com/aryadwiputra/point-of-sales/stargazers)  
+14. **[Aplikasi Point of Sales (React/Inertia)](https://github.com/aryadwiputra/point-of-sales)** [![GitHub_Stars](https://img.shields.io/github/stars/aryadwiputra/point-of-sales?style=social&color=white)](https://github.com/aryadwiputra/point-of-sales/stargazers)  
     📦 *PHP / Laravel 11 / Inertia.js / React / Tailwind CSS (MIT)*  
     Modern full-stack Point of Sale application built with Laravel, Inertia.js, and React, providing quick product indexing, transaction reporting, and sleek modern UI aesthetics.
 
-15. **[Go POS API](https://github.com/bagashiz/go-pos)** [![GitHub stars](https://img.shields.io/github/stars/bagashiz/go-pos?style=social&color=white)](https://github.com/bagashiz/go-pos/stargazers)  
+15. **[Go POS API](https://github.com/bagashiz/go-pos)** [![GitHub_Stars](https://img.shields.io/github/stars/bagashiz/go-pos?style=social&color=white)](https://github.com/bagashiz/go-pos/stargazers)  
     📦 *Go / Gin / PostgreSQL / Redis (MIT)*  
     Production-grade RESTful POS backend microservice crafted in Go using hexagonal architecture, PostgreSQL data persistence, Redis caching, and high-concurrency checkout throughput.
 
