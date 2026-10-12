@@ -1,6 +1,9 @@
 <p align="center">
-  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
-  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="assets/banner.svg" alt="Awesome Cloud Point of Sale - Curated POS Ecosystem Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos?style=flat-square&logo=github&color=gold" alt="Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -10,13 +13,13 @@
 
 ---
 
-# 🛒 Awesome Cloud Point of Sale (POS) Systems
+# 🛒 Awesome Cloud Point of Sale (POS) Systems 🚀
 
-> **A comprehensive, SEO-optimized curated directory of top Cloud Point of Sale (POS) SaaS platforms and production-ready open-source POS systems for modern retail stores, restaurants, multi-location franchises, and commerce developers.**
+> **A comprehensive, SEO-optimized curated directory of top Cloud Point of Sale (POS) SaaS platforms and production-ready open-source POS systems for modern retail stores 🏬, restaurants 🍽️, multi-location franchises 🏢, and commerce developers 💻.**
 
-Cloud Point of Sale (**POS**) platforms enable real-time checkout, multi-channel inventory synchronization, omnichannel order routing, contactless payments, customer relationship management (CRM), and advanced sales analytics across distributed physical stores and digital storefronts.
+Cloud Point of Sale (**POS**) platforms enable real-time checkout 💳, multi-channel inventory synchronization 📦, omnichannel order routing 🔄, contactless payments 📲, customer relationship management (CRM) 👥, and advanced sales analytics 📈 across distributed physical stores and digital storefronts.
 
-Whether you are evaluating enterprise SaaS POS vendors or deploying self-hosted, offline-first open-source POS engines, this directory tracks the leading solutions across the global point of sale landscape.
+Whether you are evaluating enterprise SaaS POS vendors ☁️ or deploying self-hosted, offline-first open-source POS engines ⚡, this directory tracks the leading solutions across the global point of sale landscape.
 
 ---
 
@@ -27,6 +30,7 @@ Whether you are evaluating enterprise SaaS POS vendors or deploying self-hosted,
 - [⚡ Open-Source POS Systems](#-open-source-pos-systems)
 - [🧩 Core Cloud POS Architecture & Functional Modules](#-core-cloud-pos-architecture--functional-modules)
 - [💡 How to Choose a Cloud POS System](#-how-to-choose-a-cloud-pos-system)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [📈 Star History](#-star-history)
 - [📜 Disclaimer](#-disclaimer)
@@ -35,15 +39,15 @@ Whether you are evaluating enterprise SaaS POS vendors or deploying self-hosted,
 
 ## 📊 Market Overview & Industry Dynamics
 
-> **Estimated Market Size & Fragmentation:** The global cloud POS market was valued at approximately **$4.8 billion to $5.2 billion in 2023** and is projected to surpass **$18 billion by 2032** (CAGR ~15.2%). The sector is **moderately fragmented**—while major fintech and enterprise giants (e.g., Salesforce, Shopify, Block/Square, Toast, Lightspeed, Fiserv/Clover) dominate major tier-1 and SMB segments, regional hardware-bundled solutions, specialized niche verticals (restaurants, pharmacies, grocery), and thriving open-source ecosystems prevent a singular winner-take-all outcome.
+> 🌐 **Estimated Market Size & Fragmentation:** The global cloud POS market was valued at approximately **$4.8 billion to $5.2 billion in 2023** and is projected to surpass **$18 billion by 2032** (CAGR ~15.2% 📈). The sector is **moderately fragmented** 🧩—while major fintech and enterprise giants (e.g., Salesforce, Shopify, Block/Square, Toast, Lightspeed, Fiserv/Clover) dominate major tier-1 and SMB segments, regional hardware-bundled solutions, specialized niche verticals (restaurants, pharmacies, grocery), and thriving open-source ecosystems prevent a singular winner-take-all outcome.
 
 ---
 
 ## ☁️ SaaS & Hosted Cloud POS Platforms
 
-The table below catalogs leading commercial cloud POS platforms, sorted in descending order by **Company Size (Market Capitalization / Valuation / Annual Revenue)**. Specific entry-tier starting prices and exact free tier / free trial limits are explicitly detailed.
+The table below catalogs leading commercial cloud POS platforms, sorted in descending order by **Company Size (Market Capitalization / Valuation / Annual Revenue)** 🏢. Specific entry-tier starting prices 💰 and exact free tier / free trial limits ⏱️ are explicitly detailed.
 
-| Platform | Description & Key Strengths | Company Size (Valuation / Revenue) | Starting Pricing | Free Tier / Free Trial Limits |
+| Platform 🏷️ | Description & Key Strengths 🛠️ | Company Size (Valuation / Revenue) 💼 | Starting Pricing 💵 | Free Tier / Free Trial Limits 🎁 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Salesforce Retail Cloud POS](https://www.salesforce.com/solutions/retail/)** | Enterprise unified commerce POS delivering real-time shopper 360 data, AI-driven retail insights, cross-channel order orchestration, and native Salesforce CRM connection. | **~$280 Billion Market Cap** (Salesforce) / **~$34.9B+ Annual Revenue** | Starts at **$175/user/month** (Commerce Cloud Starter Edition; billed annually; custom enterprise pricing for high-volume store estates). | **30-day free trial** of Salesforce Commerce Cloud sandbox (includes pre-configured retail catalog, sample SKU inventory, and demo workflows; strictly non-production). |
 | **[Shopify POS](https://www.shopify.com/pos)** | Industry-leading unified retail POS connecting physical store counters with online Shopify stores, centralized multi-location inventory, and integrated chip/tap card readers. | **~$105 Billion Market Cap** (Shopify) / **~$7.1B+ Annual Revenue** | Starts at **$39/month** (Basic plan includes Shopify POS Lite for basic checkout; Shopify POS Pro with advanced inventory & retail permissions adds **$89/month/location**). | **3-day free trial** without credit card, followed by promotional **$1/month for the first month** (full access to POS Lite checkout, inventory management, and web store). |
@@ -60,7 +64,7 @@ The table below catalogs leading commercial cloud POS platforms, sorted in desce
 
 ## ⚡ Open-Source POS Systems
 
-Production-grade, community-supported, and self-hosted open-source Point of Sale systems sorted in descending order by **GitHub Star Count**:
+Production-grade, community-supported, and self-hosted open-source Point of Sale systems sorted in descending order by **GitHub Star Count** ⭐:
 
 1. **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
    📦 *Python / JavaScript / PostgreSQL (LGPL-3.0)*  
@@ -153,16 +157,27 @@ graph TD
 
 When deciding between a commercial SaaS POS and an open-source solution, consider these core trade-offs:
 
-1. **Hardware Ecosystem & Lock-in:** Commercial platforms like Clover and Toast often require proprietary terminals with bundled processing rates. Open-source or software-only systems (such as Odoo POS or NexoPOS) run on generic iPads, Android tablets, touch monitors, or standard PCs.
-2. **Payment Processing Fees:** Compare fixed monthly subscription fees against swipe rates (e.g., 2.6% + 10¢ vs. interchange-plus). For high transaction volumes, software with processing-agnostic gateways saves significant capital.
-3. **Offline Resilience:** If your internet connection is unstable, ensure the POS supports local offline transaction caching (like Odoo POS or TailPOS) that transparently syncs back to the cloud when reconnected.
-4. **Data Sovereignty & Customization:** Open-source architectures grant full access to underlying SQL databases and APIs, making them ideal for custom workflows, regulatory data residency, and avoiding vendor price hikes.
+1. 🖥️ **Hardware Ecosystem & Lock-in:** Commercial platforms like Clover and Toast often require proprietary terminals with bundled processing rates. Open-source or software-only systems (such as Odoo POS or NexoPOS) run on generic iPads, Android tablets, touch monitors, or standard PCs.
+2. 💳 **Payment Processing Fees:** Compare fixed monthly subscription fees against swipe rates (e.g., 2.6% + 10¢ vs. interchange-plus). For high transaction volumes, software with processing-agnostic gateways saves significant capital.
+3. 📶 **Offline Resilience:** If your internet connection is unstable, ensure the POS supports local offline transaction caching (like Odoo POS or TailPOS) that transparently syncs back to the cloud when reconnected.
+4. 🔐 **Data Sovereignty & Customization:** Open-source architectures grant full access to underlying SQL databases and APIs, making them ideal for custom workflows, regulatory data residency, and avoiding vendor price hikes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated directory has helped you explore, evaluate, or architect cloud Point of Sale solutions, please consider supporting the project! 🌟
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and contribute** new open-source projects, SaaS insights, or documentation updates.
+- 📢 **Share** with fellow engineers, retail operators, and restaurant managers.
+- ☕ **Buy a Coffee / Sponsor:** If you'd like to support ongoing curation and open-source research, check out the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007). Thank you so much for your generosity! 🚀
 
 ---
 
 ## 🤝 How to Contribute
 
-Community additions, corrections, and new platforms are warmly welcomed!
+Community additions, corrections, and new platforms are warmly welcomed! 🎉
 
 1. 🍴 Fork the repository.
 2. 🌿 Create your feature branch (`git checkout -b feature/add-new-pos`).
@@ -174,15 +189,15 @@ Community additions, corrections, and new platforms are warmly welcomed!
 
 ## 📈 Star History
 
-[![Star History Chart](https://star-history.com/#ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos&Date)](https://star-history.com/#ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Point-Of-Sale-Pos&type=date&legend=top-left)
 
 ---
 
 ## 📜 Disclaimer
 
-- This directory is **community-curated** for educational, evaluation, and research purposes.
-- All product names, logos, and brands are property of their respective owners.
-- SaaS pricing, features, and trial limits are subject to change by vendors. Verify current terms on official websites prior to contract signing.
+- ℹ️ This directory is **community-curated** for educational, evaluation, and research purposes.
+- 🏢 All product names, logos, and brands are property of their respective owners.
+- ⚠️ SaaS pricing, features, and trial limits are subject to change by vendors. Verify current terms on official websites prior to contract signing.
 
 ---
 

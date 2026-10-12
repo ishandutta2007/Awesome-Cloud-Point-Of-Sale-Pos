@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="35%" stop-color="#0f172a" />
+      <stop offset="75%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+
+    <!-- Animated Accent Gradient for Main Title -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#34d399;#38bdf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#c084fc;#38bdf8;#818cf8" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#34d399;#818cf8;#c084fc" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.09" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+      <circle cx="40" cy="0" r="1" fill="#64748b" fill-opacity="0.4" />
+    </pattern>
+
+    <!-- Glow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 900;
+      font-size: 50px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 19px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+    }
+    .badge-label {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  </style>
+
+  <!-- Background Base Layer -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="360" rx="16" fill="url(#grid)" />
+
+  <!-- Animated Ambient Orbs (Background layer) -->
+  <g filter="url(#glow)">
+    <circle cx="140" cy="80" r="90" fill="#4338ca" opacity="0.32">
+      <animate attributeName="cy" values="80;110;80" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="r" values="90;105;90" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1060" cy="270" r="110" fill="#0284c7" opacity="0.25">
+      <animate attributeName="cy" values="270;230;270" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="r" values="110;95;110" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="940" cy="85" r="80" fill="#10b981" opacity="0.22">
+      <animate attributeName="cx" values="940;970;940" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Decorative POS Circuit Nodes & Signal Lines (Far left & right margins) -->
+  <g stroke="#475569" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="4,4">
+    <line x1="80" y1="180" x2="190" y2="180" />
+    <line x1="1010" y1="180" x2="1120" y2="180" />
+    <line x1="190" y1="180" x2="230" y2="240" />
+    <line x1="1010" y1="180" x2="970" y2="120" />
+  </g>
+
+  <!-- Floating POS Hardware & Payment Decorative Modules (Positioned at edges to keep title clear) -->
+  <g filter="url(#subtleGlow)">
+    <!-- Payment / Card Node -->
+    <g transform="translate(60, 150)">
+      <rect width="60" height="60" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="30" y="38" font-size="24" text-anchor="middle">💳</text>
+    </g>
+
+    <!-- Cloud Checkout Node -->
+    <g transform="translate(1080, 150)">
+      <rect width="60" height="60" rx="14" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" />
+      <text x="30" y="38" font-size="24" text-anchor="middle">🛒</text>
+    </g>
+
+    <!-- Inventory / Barcode Node -->
+    <g transform="translate(970, 60)">
+      <rect width="50" height="50" rx="12" fill="#1e293b" stroke="#34d399" stroke-width="1.5" />
+      <text x="25" y="33" font-size="20" text-anchor="middle">📦</text>
+    </g>
+
+    <!-- Receipt / Analytics Node -->
+    <g transform="translate(180, 240)">
+      <rect width="50" height="50" rx="12" fill="#1e293b" stroke="#c084fc" stroke-width="1.5" />
+      <text x="25" y="33" font-size="20" text-anchor="middle">🧾</text>
+    </g>
+  </g>
+
+  <!-- Central Foreground Content (Title, Subtitle, Badges - Always in Foreground) -->
+  <g transform="translate(160, 30)">
+    <!-- Top Live Tag -->
+    <g transform="translate(305, 12)">
+      <rect width="270" height="30" rx="15" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" stroke-opacity="0.8" />
+      <circle cx="18" cy="15" r="4" fill="#22c55e">
+        <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="148" y="20" class="pill-text" fill="#a5b4fc" text-anchor="middle">CURATED POS DIRECTORY</text>
+    </g>
+
+    <!-- Main Title with Gradient -->
+    <text x="440" y="112" text-anchor="middle" class="title-text" fill="url(#primaryGrad)" filter="url(#subtleGlow)">Awesome Cloud Point Of Sale</text>
+
+    <!-- Subtitle -->
+    <text x="440" y="154" text-anchor="middle" class="subtitle-text">Top Cloud POS SaaS Platforms &amp; Open-Source Checkout Systems</text>
+
+    <!-- Category Badges / Highlights -->
+    <g transform="translate(65, 186)">
+      <!-- SaaS Cloud POS Badge -->
+      <g transform="translate(0, 0)">
+        <rect width="230" height="42" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.6" />
+        <text x="115" y="26" class="badge-label" fill="#e0f2fe" text-anchor="middle">☁️ SaaS &amp; Hosted POS</text>
+      </g>
+
+      <!-- Open Source Badge -->
+      <g transform="translate(260, 0)">
+        <rect width="230" height="42" rx="10" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.6" />
+        <text x="115" y="26" class="badge-label" fill="#e0e7ff" text-anchor="middle">⚡ Open-Source POS</text>
+      </g>
+
+      <!-- Retail & Omnichannel Badge -->
+      <g transform="translate(520, 0)">
+        <rect width="230" height="42" rx="10" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1" stroke-opacity="0.6" />
+        <text x="115" y="26" class="badge-label" fill="#dcfce7" text-anchor="middle">🏪 Retail &amp; Restaurants</text>
+      </g>
+    </g>
+
+    <!-- Bottom Features Line -->
+    <text x="440" y="264" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#64748b" text-anchor="middle">
+      Omnichannel Retail • Restaurant &amp; Tableside • Offline-First Caching • EMV Payments • Inventory Sync
+    </text>
+  </g>
+
+  <!-- Border Framing -->
+  <rect x="1" y="1" width="1198" height="358" rx="15" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.4" />
+</svg>
